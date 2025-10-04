@@ -1,4 +1,4 @@
-## Modern Walk - Frontend Prototype 
+## 🛍️ Modern Walk - Frontend Prototype 
 
 This repository contains the frontend implementation of the Modern Walk mock e-commerce site using Next.JS and Tailwind CSS.
 

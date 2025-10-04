@@ -1,4 +1,4 @@
-import { TProduct } from "../../types/product";
+import { TProduct } from "../types/product";
 
 export const getProducts = async (): Promise<TProduct[]> => {
     let statusCode = 500;

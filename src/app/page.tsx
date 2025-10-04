@@ -1,6 +1,6 @@
 import ProductCard from "@/components/ProductCard";
 import { getProducts } from "@/services/products";
-import { getFlashSales } from "../../utils/sales";
+import { getFlashSales } from "../utils/sales";
 import { CategoryCard } from "@/components/CategoryCard";
 
 export default async function Home() {

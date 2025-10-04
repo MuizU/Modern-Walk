@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { getBackgroundColor } from "../../utils/style";
+import { getBackgroundColor } from "../utils/style";
 
 export type TProps = {
     category: `men's clothing` | `women's clothing`;

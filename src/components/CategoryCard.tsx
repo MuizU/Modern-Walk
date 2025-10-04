@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getBackgroundColor } from "../../utils/style";
+import { getBackgroundColor } from "../utils/style";
 
 type TProps = {
     category: string;

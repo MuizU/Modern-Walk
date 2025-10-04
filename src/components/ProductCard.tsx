@@ -1,13 +1,9 @@
 import Image from "next/image";
 import { getBackgroundColor } from "../utils/style";
+import { TProduct } from "@/types/product";
 
-export type TProps = {
-    category: `men's clothing` | `women's clothing`;
-    price: number;
-    title: string;
-    description: string;
-    image: string;
-}
+type TProps = Pick<TProduct, 'category' | 'price' | 'title' | 'description' | 'image'>;
+
 const ProductCard = ({
     category,
     price,

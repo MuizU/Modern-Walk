@@ -24,4 +24,4 @@ This repository contains the frontend implementation of the Modern Walk mock e-c
 
 
 ## Future Work
-- For the mobile view the flash sales listing could have a carousel view making the overall flow relatable to the desktop view.
+- For the mobile view the flash sales listing could have a carousel view making the overall flow consisten with the desktop view.

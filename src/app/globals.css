@@ -25,3 +25,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.card-shadow {
+  box-shadow: 10px 15px 20px 0px #00000026;
+}

@@ -11,7 +11,7 @@ const MensPage = async () => {
                     <h3 className="text-3xl font-bold text-[#0E0E0E] p-4">
                         Men&#39;s Clothing
                     </h3>
-                    <div className="flex flex-row gap-10 justify-start flex-wrap">
+                    <div className="flex flex-row gap-10 justify-center flex-wrap sm:justify-start">
                         {mensClothing.map(item => (
                             <ProductCard
                                 key={item.id}

@@ -5,7 +5,7 @@ const WomensPage = async () => {
     const productData = await getProducts() || [];
     const mensClothing = productData.filter(item => item.category === `women's clothing`);
     return (
-        <div className="font-sans min-h-screen px-8 sm:p-20 bg-[#f5f5f5]">
+        <div className="font-sans min-h-screen px-8 sm:px-20 sm:py-10 bg-[#f5f5f5]">
             <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
                 <div className="flex flex-col gap-4 items-center sm:items-start w-full">
                     <h3 className="text-3xl font-bold text-[#0E0E0E] p-4">

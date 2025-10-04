@@ -38,7 +38,7 @@ export default async function Home() {
         </div>
         <div className="flex flex-col gap-4 items-center sm:items-start w-full">
           <h3 className="text-3xl font-bold text-[#0E0E0E] p-0">Categories</h3>
-          <div className="flex flex-row gap-10 justify-start">
+          <div className="grid grid-cols-2 gap-8 w-full">
             {buttonOptions.map((btn) => (
               <CategoryCard
                 key={btn.label}

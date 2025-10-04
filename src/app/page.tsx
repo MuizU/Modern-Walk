@@ -19,7 +19,7 @@ export default async function Home() {
     }
   ]
   return (
-    <div className="font-sans min-h-screen px-8 sm:p-20 bg-[#f5f5f5]">
+    <div className="font-sans min-h-screen p-8 sm:p-20 bg-[#f5f5f5]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <div className="flex flex-col gap-4 items-center sm:items-start">
           <h3 className="text-3xl font-bold text-[#0E0E0E] p-0">Flash Sale</h3>
@@ -38,7 +38,7 @@ export default async function Home() {
         </div>
         <div className="flex flex-col gap-4 items-center sm:items-start w-full">
           <h3 className="text-3xl font-bold text-[#0E0E0E] p-0">Categories</h3>
-          <div className="grid grid-cols-2 gap-8 w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full">
             {buttonOptions.map((btn) => (
               <CategoryCard
                 key={btn.label}

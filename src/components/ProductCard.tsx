@@ -19,7 +19,7 @@ const ProductCard = ({
             </div>
             <div className={`border border-transparent rounded-[15px] flex flex-col align-center justify-start  px-12 py-4 max-h-100 gap-2 ${getBackgroundColor(category)} mt-auto`}>
                 <p className="text-center text-lg font-extrabold text-[#0E42FD]">Rs {price}</p>
-                <p className="line-clamp-4 text-ellipsis text-sm h-20">{description}</p>
+                <p className="line-clamp-4 text-center text-ellipsis text-sm h-20">{description}</p>
             </div>
         </div>
     )
